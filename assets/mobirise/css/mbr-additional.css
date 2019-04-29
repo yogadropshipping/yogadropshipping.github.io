@@ -1515,3 +1515,25 @@ body {
 .cid-rp28EcD6Ja .mbr-step-text {
   text-align: left;
 }
+.cid-rp2gothCDc {
+  background-image: url("../../../assets/images/background4.jpg");
+}
+.cid-rp2gothCDc .form-control,
+.cid-rp2gothCDc .form-control:focus {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+.cid-rp2gothCDc .form-container {
+  transition: all .2s;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+}
+.cid-rp2gothCDc .input-group-btn {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+@media (min-width: 768px) {
+  .cid-rp2gothCDc .content-container {
+    padding-right: 5rem;
+  }
+}
