@@ -17,9 +17,10 @@
         var $this = $(this);
         var $prev = $this.prev();
         var $win = $(window);
+        var isIE = false || !!document.documentMode;
 
         function initReveal() {
-            if ($this.outerHeight() <= $win.outerHeight()) {
+            if (!isIE && $this.outerHeight() <= $win.outerHeight()) {
                 $this.css({
                     'z-index': -999,
                     position: 'fixed',
@@ -1000,5 +1001,23 @@
                 });
             });
         }
+    }
+    // Form Styler
+    if (isBuilder) {
+    	$(document).on('add.cards', function(event) {
+    		if ($(event.target).find('.form-with-styler').length) {
+    			var form = $(event.target).find('.form-with-styler');
+    			$(form).find('select:not("[multiple]")').each(function() {
+    				$(this).styler();
+    			});
+    		}
+    	});
+    }
+    else {
+    	$('section .form-with-styler').each(function() {
+    		$(this).find('select:not("[multiple]")').each(function() {
+    			$(this).styler();
+    		});
+    	});
     }
 })(jQuery);
