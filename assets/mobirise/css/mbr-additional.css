@@ -683,6 +683,24 @@ h6,
 .theme-border {
   border: 1px solid #c0a375;
 }
+#header2-1 .btn {
+  font-size: 19px;
+  font-family: 'Lora', serif;
+}
+#header2-1 .mbr-section-title {
+  font-family: 'Lora', serif;
+}
+#header2-1 .mbr-section-text {
+  font-size: 20px;
+}
+#header2-1 .mbr-section-text B {
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Lora', serif;
+}
+#header2-1 STRONG {
+  font-size: 24px;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -744,24 +762,6 @@ h6,
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
-}
-#header2-1 .btn {
-  font-size: 19px;
-  font-family: 'Lora', serif;
-}
-#header2-1 .mbr-section-title {
-  font-family: 'Lora', serif;
-}
-#header2-1 .mbr-section-text {
-  font-size: 20px;
-}
-#header2-1 .mbr-section-text B {
-  text-align: left;
-  font-size: 24px;
-  font-family: 'Lora', serif;
-}
-#header2-1 STRONG {
-  font-size: 24px;
 }
 #content6-3 P {
   font-size: 36px;
